@@ -1,0 +1,137 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    
+}
+nav ul {  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #707B7C; 
+  font-size: 24px;  
+  font-family: fantasy;
+}
+
+
+h1{
+  background-color: #707B7C;
+  text-align: center;
+  font-size: 60px;
+  font-family: fantasy;
+  font-weight: bolder;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+p{
+  background-color: #EAEDED;
+  margin: 50px auto;
+  font-style: italic;
+  text-align: center;
+  width: 90%;
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 50px 50px 50px 50px;
+}
+
+nav ul li{
+    float: right;
+}
+
+
+nav li a {  
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none; 
+}
+
+ nav li a:hover{
+  background-color:  white;
+  color: #707B7C;
+}
+
+.nyito_kep_1{
+    margin: 0px;
+    padding: 0px;
+    width: 70%;
+    animation: megjelenes 2s 1;
+}
+
+.nyito_tabla{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.nyito_tabla tr th{
+    width: 50%
+}
+
+.szoveg_tablazatban{
+    font-family: cursive;
+    font-size: 24px;
+}
+
+@keyframes megjelenes{
+  0% {transform: scale(0.5)} 
+  50% {transform: scale(1.2)}
+  100% {transform: scale(1)}
+}
+
+.altalanos_info_szoveg{    
+    margin: 70px auto;
+    font-style: italic;
+    text-align: center;
+    width: 80%;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.altalanos_info{
+    background-color: #EAEDED;
+}
+
+.nav_tabla{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.nav_tabla tr th{
+    width: 33%;
+}
+
+.nav_tabla_kep{
+    width: 80%;
+}
+.nav_tabla_kep:hover{
+    animation: hover_tabla_kep 1s;
+}
+@keyframes hover_tabla_kep{
+  0% {transform: scale(1)} 
+  50% {transform: scale(1.2)}
+  100% {transform: scale(1)}
+}
+
+.nav_gombok{
+    width: 80%;
+}
+
+.nav_gomb{
+    padding: 20px 16px;
+    text-decoration: none; 
+    background-color: #FADBD8;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 auto;
+    height: 40px;    
+    color:#707B7C;
+}
+
+.nav_gomb:hover{
+    background-color: #AED6F1;
+    color:black;
+}
